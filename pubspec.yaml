@@ -1,0 +1,28 @@
+name: coffee_shop_v2
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  babylonjs_viewer: ^1.2.1
+  flutter_svg: ^2.0.5
+  animated_size_and_fade: ^3.0.1
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+  uses-material-design: true
+
